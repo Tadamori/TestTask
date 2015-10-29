@@ -1,0 +1,101 @@
+/* --------------------- /*
+	Main
+/* --------------------- */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Times ,serif;
+	font-weight: normal;
+	font-size: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+/* --------------------- /*
+	Header Nav
+/* --------------------- */
+#header-container {
+	width: 100%;
+	background: #f5f8f8;
+	background: linear-gradient(to bottom, #eef6fd, #fefcef);
+	height: 50px;
+	border-bottom: gray;
+	box-shadow: 0 2px 0px rgba(0, 0, 0, .1);
+}
+
+#header {
+	width: 100%;
+}
+
+#logo > img {
+	float: left;
+	width: 30px;
+	margin: 8px 20px;
+}
+
+#logo > span {
+	float: left;
+	position: relative;
+	top: 9px;
+}
+
+#drafts, #header-name, #logout-button {
+	float: right;
+	text-align: center;
+	position: relative;
+	top: 7px;
+	margin: 0 10px;
+}
+
+#drafts > img {
+	position: relative;
+	margin-right: 5px;
+	top: 2px;
+}
+
+#drafts {
+	top: 15px;
+}
+
+#header-name  {
+	top: 17px;
+}
+
+#logout-button {
+	width: 75px;
+	padding: 5px 7px;	
+}
+
+/* --------------------- /*
+	Typografy
+/* --------------------- */
+
+.lead {
+	font-size: 1.6em;
+	font-weight: 200;
+  	line-height: 1.4;
+}
+
+.basic-text {
+	font-size: 0.9em;
+}
+
+/* --------------------- /*
+	Buttons
+/* --------------------- */
+
+.yellow-button {
+	background: #f9e4ad;
+	background: linear-gradient(to bottom, #ffeec0, #f5dea0);
+	border-radius: 3px;
+	border: 1px solid #fff;
+	color: #1e48d0;
+	box-shadow: 0 1px 0px rgba(0, 0, 0, .2);
+}
