@@ -99,3 +99,142 @@ a {
 	color: #1e48d0;
 	box-shadow: 0 1px 0px rgba(0, 0, 0, .2);
 }
+
+/* --------------------- /*
+	Navigation menu
+/* --------------------- */
+#nav-container {
+	position: relative;
+	top: -2px;
+	width: 50px;
+	border-right: 4px solid #376aa5;
+	background-color: #123c63;
+	float: left;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 70px;
+}
+
+#navbar li {
+    width: 50px;
+    height: 45px;
+    border-bottom: 1px solid #376aa5;
+    background: url(../img/ico_menu.png);
+}
+
+#navbar a {
+    text-decoration: none;
+    display: block;
+    width: 50px;
+}
+
+#navbar a:nth-child(1) > li {
+	background-position: -154px -10px;
+	height: 40px;		
+}
+
+#navbar a:nth-child(1) > li:hover {
+	background-position: -10px -10px;
+	height: 40px;			
+}
+
+#navbar a:nth-child(2) > li {
+	background-position: -315px -62px;
+}
+
+#navbar a:nth-child(2) > li:hover {
+	background-position: -215px -62px;	
+}
+
+#navbar a:nth-child(3) > li {
+	background-position: -315px -107px;
+}
+
+#navbar a:nth-child(3) > li:hover {
+	background-position: -215px -107px;	
+}
+
+#navbar a:nth-child(4) > li {
+	background-position: -315px -152px;
+}
+
+#navbar a:nth-child(4) > li:hover {
+	background-position: -215px -152px;	
+}
+
+#navbar a:nth-child(5) > li {
+	background-position: -315px -197px;
+}
+
+#navbar a:nth-child(5) > li:hover {
+	background-position: -215px -197px;	
+}
+
+#navbar a:nth-child(6) > li {
+	background-position: -315px -242px;
+}
+
+#navbar a:nth-child(6) > li:hover {
+	background-position: -215px -242px;	
+}
+
+#navbar a:nth-child(7) > li {
+	background-position: -315px -287px;
+}
+
+#navbar a:nth-child(7) > li:hover {
+	background-position: -215px -287px;	
+}
+
+#navbar a:nth-child(8) > li {
+	background-position: -315px -332px;
+}
+
+#navbar a:nth-child(8) > li:hover {
+	background-position: -215px -332px;	
+}
+
+#navbar a:nth-child(9) > li {
+	background-position: -315px -377px;
+}
+
+#navbar a:nth-child(9) > li:hover {
+	background-position: -215px -377px;	
+}
+
+#navbar a:nth-child(10) > li {
+	background-position: -315px -422px;
+}
+
+#navbar a:nth-child(10) > li:hover {
+	background-position: -215px -422px;	
+}
+
+#navbar a:nth-child(11) > li {
+	background-position: -315px -467px;
+}
+
+#navbar a:nth-child(11) > li:hover {
+	background-position: -215px -467px;	
+}
+
+#navbar a:hover {
+	background: linear-gradient(to right, #4393c4, #376aa5);
+}
+
+/* --------------------- /*
+	Navigation menu
+/* --------------------- */
+
+#main-container {
+	background-color: #e9e9e9;
+	float: left;
+}
+
+
+
+
