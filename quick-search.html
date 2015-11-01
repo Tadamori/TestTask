@@ -100,25 +100,111 @@
                         <div class="accordion accordion-yellow">
                             <div class="accordion-header-yellow accordion-header">
                                 <div class="arrow arrow-yellow"></div>
-                                <span class="accordion-header-text-yellow">Номер записи</span>
+                                Номер записи
                                 <div class="btn btn-1"></div>
                                 <div class="btn btn-2"></div>
                             </div>
                             <div class="accordion-body">
-
+                                <div id="accordion-inner-container-1">
+                                    <label for="record-number">№</label>
+                                    <input type="text" id="record-number" />
+                                    <input type="checkbox" id="checkbox" />
+                                    <label for="checkbox" id="label">Восстановленные записи актов</label>
+                                </div>
                             </div>
                         </div>
-                        <div>
-
+                        <div class="accordion accordion-blue">
+                            <div class="accordion-header-blue accordion-header">
+                                <div class="arrow arrow-blue"></div>
+                                Дата составления записи
+                                <div class="btn btn-3"></div>
+                            </div>
+                            <div class="accordion-body">
+                                <div id="accordion-inner-container-2">
+                                    <label for="s">с:</label>
+                                    <input type="text" class="s" />
+                                    <select>
+                                        <option></option>
+                                        <option></option>
+                                        <option></option>
+                                    </select>
+                                    <input type="text" class="s-2" />
+                                    <label for="s">по:</label>
+                                    <input type="text" class="s" />
+                                    <select>
+                                        <option></option>
+                                        <option></option>
+                                        <option></option>
+                                    </select>
+                                    <input type="text" class="s-2" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div></div>
-                        <div></div>
+                        <div class="accordion accordion-blue">
+                            <div class="accordion-header-blue accordion-header">
+                                <div class="arrow arrow-blue"></div>
+                                Выдано свидетельство
+                            </div>
+                            <div class="accordion-body">
+                                <div id="accordion-inner-container-3">
+                                    <label for="seriya-number">Серия / номер:</label>
+                                    <input type="text" placeholder="__-__" id="s-n-1" /> / <input type="text" placeholder="______" id="s-n-2" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion accordion-blue">
+                            <div class="accordion-header-blue accordion-header">
+                                <div class="arrow arrow-blue"></div>
+                                Орган, зарегистрировавший запись
+                            </div>
+                            <div class="accordion-body">
+                                <div id="accordion-inner-container-4">
+                                    <label for="organ-name">Наименование органа ЗАГС:</label>
+                                    <input type="text" id="organ-name" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="row">
-                        <div></div>
-                        <div></div>
+                        <div class="accordion accordion-big accordion-yellow">
+                            <div class="accordion-header-yellow accordion-header">
+                                <div class="arrow arrow-yellow"></div>
+                                ФИО сотрудника, составившего запись
+                                <div class="btn btn-2"></div>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-inner-container-5">
+                                    <label for="last-name-1">Фамилия:</label>
+                                    <input type="text" id="last-name-1" />
+                                    <br />
+                                    <label for="first-name-1">Имя:</label>
+                                    <input type="text" id="first-name-1" />
+                                    <br />
+                                    <label for="middle-name-1">Отчество:</label>
+                                    <input type="text" id="middle-name-1" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion accordion-big accordion-blue">
+                            <div class="accordion-header-blue accordion-header">
+                                <div class="arrow arrow-blue"></div>
+                                ФИО руководителя органа ЗАГС
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-inner-container-5">
+                                    <label for="last-name-2">Фамилия:</label>
+                                    <input type="text" id="last-name-2" />
+                                    <br />
+                                    <label for="first-name-2">Имя:</label>
+                                    <input type="text" id="first-name-2" />
+                                    <br />
+                                    <label for="middle-name-2">Отчество:</label>
+                                    <input type="text" id="middle-name-2" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
