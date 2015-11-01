@@ -9,3 +9,16 @@ resize();
 window.onresize = function() {
     resize();
 };
+
+function buttonChange(obj) {
+	if (obj.classList.contains("blue-button")) {
+		obj.classList.remove("blue-button");
+		obj.classList.add("white-button");
+	} else if (obj.classList.contains("white-button")) {
+		obj.classList.remove("white-button");
+		obj.classList.add("blue-button");
+	}
+}
+
+
+// /\bblue-button\b/
