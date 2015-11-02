@@ -158,6 +158,13 @@ label, .label {
 	position: relative;
 }
 
+.label-block {
+	margin-right: 4px;
+	font-family: "ArialRegular", Arial;
+	color: #989898;
+	font-size: 0.65em;
+}
+
 
 /* --------------------- /*
 	Buttons
@@ -757,7 +764,23 @@ select {
 	|| - search-result.html
 /* -------------------------- */
 
-	/*Inner Container*/
+/*Inner Container*/
+
+#inner-container-search-results {
+	margin-left: 30px;
+	margin-top: 15px;
+	width: 97%;
+	height: 710px;
+	background-color: #fcfcfc;
+	box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, .2);
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+#inner-container-search-results > div {
+	padding: 15px;
+}
 
 .new-search-button {
 	padding-left: 10px;
@@ -767,7 +790,7 @@ select {
 
 .blue-block {
 	background-color: #eaf4ff;
-	margin: 10px 7px;
+	margin: 10px 0px;
 	height: 88px;
 	border-radius: 6px;
 }
@@ -828,6 +851,7 @@ select {
 
 .line-wrapper {
 	margin: 0 20px;
+	margin-bottom: 45px;
 }
 
 .line-wrapper > .to-left > span {
@@ -913,6 +937,63 @@ select {
 .inline {
 	display: inline-block;
 }
+
+/* -------------------------- /*
+	Таблица
+/* -------------------------- */
+
+#table-container {
+	
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table > thead {
+	font-size: 0.8em;
+}
+
+table td, th {
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+table tr {
+	height: 42px;
+}
+
+table 
+
+table tr td:nth-child(1) {
+	vertical-align: top;
+	color: #bfbfbf;
+	font-size: 0.8em;
+	padding-top: 6px;
+	padding-left: 10px;
+	width: 30px;
+}
+
+table tr td:nth-child(2) {
+	color: #2d54d3;
+}
+
+.text-block {
+	font-size: 0.8em;
+	margin-bottom: 3px;
+}
+
+table th:not(.black) {
+	color: #2d54d3;
+}
+
+table th {
+	text-align: left;
+	height: 21px;
+}
+
+
 
 
 /** {
