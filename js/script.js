@@ -19,6 +19,3 @@ function buttonChange(obj) {
 		obj.classList.add("blue-button");
 	}
 }
-
-
-// /\bblue-button\b/
